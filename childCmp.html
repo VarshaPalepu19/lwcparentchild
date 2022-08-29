@@ -1,0 +1,26 @@
+<template>
+        <!--For each loop to display Contact from the list.-->
+        <!--<template for:each={availableAccounts} for:item="i" if:true={Accounts}>
+            <p key={i.Id}>{i.Name}</p>
+        </template>-->
+       <div class="slds-scrollable_none slds-p-around_medium">
+           <template if:true={availableAccounts}> 
+            <div class="accounts">
+               <!-- <template if:true={visible}> -->
+                   <lightning-card title="Accounts" icon-name="custom:custom63">  
+               <lightning-datatable key-field="Id" data={availableAccounts} columns={columns}
+                   onrowaction={handleRowAction1} hide-checkbox-column="true">
+               </lightning-datatable>
+                   </lightning-card>
+                   </div>
+                </template>
+					 <!-- <template if:false={availableAccounts}> 
+							 <p style="font-weight:bold; color:red; text-align:center; font-size:15pt">
+									 No records found in Accounts!
+							 </p>
+					 </template>-->
+                 
+               <!-- </template>   -->
+       </div>
+    
+</template>

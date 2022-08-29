@@ -1,0 +1,46 @@
+.class1{
+	text-align: center;
+}
+.card{
+	/* width:1200px; */
+	/* height:1200px; */
+	width: 1350px;
+	height:1500px;
+	
+}
+.record{
+		font-weight:bold;
+		
+}
+.phone{
+	width:49%;
+}
+.slds-modal__header{
+	background-color: #4eab57
+}
+.icon{
+	--sds-c-icon-color-background:white;
+	--sds-c-icon-color-foreground:#4eab57;
+}
+:host{
+	--slds-c-button-success-color-background: #4eab57;
+	--slds-c-button-success-color-border: #4eab57;
+	--slds-c-button-success-text-color:white;
+	width: 20px;
+	
+
+}
+div.class1{
+	flex:none;
+}
+div.class2{
+	flex:none;
+	position: absolute;
+	top:20px;
+	left:44px;
+	/* right:1px; */
+}
+.slds-modal__container{
+	
+    max-width: 24rem;
+}
